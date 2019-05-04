@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 
-import Logo from "assets/images/logo.svg";
-import DashboardIcon from "assets/images/dashboard.svg";
-import MonitorIcon from "assets/images/monitor.svg";
-import AnalyticsIcon from "assets/images/analytics.svg";
-import ResearchIcon from "assets/images/research.svg";
-import ReviewIcon from "assets/images/review.svg";
-import ProductIcon from "assets/images/product.svg";
+import {
+  Logo,
+  DashboardIcon,
+  MonitorIcon,
+  AnalyticsIcon,
+  ResearchIcon,
+  ReviewIcon,
+  ProductIcon,
+  InventoryIcon,
+  AdvertisingIcon
+} from "assets";
 
 import "./styles.css";
 
@@ -35,6 +39,12 @@ class SideBar extends Component {
           </div>
           <div className="menu-item">
             <img src={ProductIcon} alt="logo" />
+          </div>
+          <div className="menu-item">
+            <img src={InventoryIcon} alt="logo" />
+          </div>
+          <div className="menu-item">
+            <img src={AdvertisingIcon} alt="logo" />
           </div>
         </div>
       </div>
