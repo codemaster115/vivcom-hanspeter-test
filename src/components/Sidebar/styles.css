@@ -1,9 +1,20 @@
 .container{
   background-color: #6673E5;
-  width: 70px;
+  width: 65px;
   height: 100%;
 }
 
 .logo{
   padding: 10px 0;
+}
+
+.menu-list{
+  margin-top: 30px;
+}
+
+.menu-item{
+  background-color: #4B42C6;
+  margin: 6px;
+  padding: 14px 0;
+  border-radius: 6px;
 }
