@@ -9,7 +9,8 @@ import {
   ReviewIcon,
   ProductIcon,
   InventoryIcon,
-  AdvertisingIcon
+  AdvertisingIcon,
+  SettingsIcon
 } from "assets";
 
 import "./styles.css";
@@ -45,6 +46,11 @@ class SideBar extends Component {
           </div>
           <div className="menu-item">
             <img src={AdvertisingIcon} alt="logo" />
+          </div>
+        </div>
+        <div className="menu-bottom">
+          <div className="menu-item">
+            <img src={SettingsIcon} alt="logo" />
           </div>
         </div>
       </div>

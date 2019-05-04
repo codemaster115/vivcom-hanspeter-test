@@ -7,6 +7,8 @@ import ReviewIcon from "./images/review.svg";
 import ProductIcon from "./images/product.svg";
 import InventoryIcon from "./images/inventory.svg";
 import AdvertisingIcon from "./images/advertising.svg";
+import SettingsIcon from "./images/settings.svg";
+
 
 
 export {
@@ -18,5 +20,6 @@ export {
   ReviewIcon,
   ProductIcon,
   InventoryIcon,
-  AdvertisingIcon
+  AdvertisingIcon,
+  SettingsIcon
 }

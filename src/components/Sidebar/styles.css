@@ -1,7 +1,8 @@
 .container{
+  position: relative;
   background-color: #6673E5;
   width: 65px;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .logo{
@@ -12,9 +13,20 @@
   margin-top: 30px;
 }
 
+.menu-bottom{
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+
 .menu-item{
-  background-color: #4B42C6;
+  background-color: transparent;
   margin: 6px;
   padding: 14px 0;
   border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-item:hover{
+  background-color: #4B42C6;
 }
