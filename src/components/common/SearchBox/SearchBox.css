@@ -1,0 +1,29 @@
+.ant-input-search .ant-input-affix-wrapper .search-box {
+  height: 44px;
+  border-radius: 8px;
+}
+
+.search-box .ant-input-suffix {
+  left: 12px;
+  width: 18px;
+}
+
+.search-box .ant-input {
+  padding-left: 30px;
+  border-radius: 8px;
+  height: 38px;
+  color: #4B42C6;
+}
+
+.search-box .ant-input:focus {
+  outline: none;
+}
+
+.search-box .ant-input-search-icon {
+  color: #4B42C6;
+}
+
+.search-box .ant-input-group-addon {
+  background-color: #FFFFFF;
+  border: none
+}

@@ -1,0 +1,27 @@
+.product-name {
+  display: flex;
+  align-items: center;
+}
+
+.product-img {
+  display: flex;
+  align-items: center;
+}
+
+.product-info {
+  position: relative;
+  margin-left: 20px;
+}
+
+.product-info img {
+  position: relative;
+  top: -1px;
+}
+
+.product-info p {
+  margin: 0;
+  white-space: nowrap; 
+  width: 180px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

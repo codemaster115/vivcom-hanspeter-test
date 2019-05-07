@@ -1,0 +1,25 @@
+.default{
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+.primary{
+  font-weight: 600;
+  text-align: center;
+  color: #00AB9C;
+}
+
+.danger{
+  font-weight: 600;
+  text-align: center;
+  color: #ED3E67;
+}
+
+.sm{
+  font-size: 10px;
+}
+
+.lg{
+  font-size: 14px;
+}

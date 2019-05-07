@@ -1,0 +1,34 @@
+.buybox-content{
+  width: 100%;
+  height: 900px;
+  overflow: auto;
+}
+
+.buybox-content > .table-container{
+  padding: 15px 30px;
+}
+
+.buybox-content > .table-container > .control-bar{
+  display: flex;
+  align-items: center;
+}
+
+.buybox-content > .table-container > .control-bar > div{
+  margin-right: 20px;
+}
+
+.buybox-content > .table-container > .table{
+  margin-top: 10px;
+}
+
+.buybox-content .ant-table-pagination {
+  position: absolute;
+  top: -55px;
+  left: 220px;
+  margin: 12px 0 !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link{
+  border: none !important;
+}
+

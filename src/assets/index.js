@@ -8,7 +8,14 @@ import ProductIcon from "./images/product.svg";
 import InventoryIcon from "./images/inventory.svg";
 import AdvertisingIcon from "./images/advertising.svg";
 import SettingsIcon from "./images/settings.svg";
+import NullIcon from "./images/null.svg";
+import ArrowIcon from "./images/arrow.svg";
+import BellIcon from "./images/bell.svg";
+import ChartOne from "./images/chart_one.png";
+import ChartTwo from "./images/chart_two.png";
 
+import SampleProduct from "./images/sample-product.svg";
+import SampleFlag from "./images/sample-flag.svg";
 
 
 export {
@@ -21,5 +28,12 @@ export {
   ProductIcon,
   InventoryIcon,
   AdvertisingIcon,
-  SettingsIcon
+  SettingsIcon,
+  SampleProduct,
+  SampleFlag,
+  NullIcon,
+  ArrowIcon,
+  BellIcon,
+  ChartOne,
+  ChartTwo
 }

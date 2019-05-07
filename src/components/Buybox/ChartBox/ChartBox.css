@@ -1,0 +1,11 @@
+.chartbox-container{
+  display: flex;
+  padding: 22px;
+  height: 360px;
+  border-bottom: solid 1px lightgray;
+}
+
+.chartbox-container > div{
+  width: 100%;
+  text-align: center;
+}

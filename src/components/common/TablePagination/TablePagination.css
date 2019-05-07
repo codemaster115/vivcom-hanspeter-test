@@ -1,0 +1,23 @@
+.ant-pagination-item{
+  border-style: none !important;
+}
+
+.ant-pagination-item a{
+  margin: 3px !important;
+  -webkit-text-security: disc;
+  -moz-text-security: disc;
+  text-security: disc;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #E6E8ED !important;
+}
+
+.ant-pagination-item-active a{
+  color: #4B42C6 !important;
+}
+
+.ant-pagination-item{
+  min-width: 18px !important;
+}
+

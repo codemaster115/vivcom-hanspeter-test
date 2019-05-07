@@ -1,0 +1,21 @@
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: solid 1px lightgray;
+  height: 48px;
+}
+
+.nav-header__notification {
+  color: #4B42C6;
+  margin-right: 30px;
+}
+
+.nav-header__username {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 24px;
+  border-left: solid 1px lightgray;
+  color: #1E135F;
+}
