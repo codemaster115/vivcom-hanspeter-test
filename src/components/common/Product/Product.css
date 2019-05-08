@@ -24,4 +24,5 @@
   width: 180px; 
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #000 !important;
 }
