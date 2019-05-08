@@ -267,6 +267,7 @@ span {
   height: calc(100% - 48px);
 }
 
+
 .flex-between-wrapper {
   display: flex;
   justify-content: space-between;
@@ -284,4 +285,8 @@ span {
   align-items: center;
   justify-content: space-between;
   color: #4B42C6
+}
+
+.page-navbar{
+  background-color: #6673E5;
 }
