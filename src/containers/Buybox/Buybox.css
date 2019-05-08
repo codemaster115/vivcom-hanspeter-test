@@ -32,3 +32,17 @@
   border: none !important;
 }
 
+.ant-pagination-item a{
+  display: none;
+}
+
+.ant-pagination-item{
+  height: 8px !important;
+  min-width: 8px !important;
+}
+
+.ant-pagination-item-active{
+  border: none !important;
+  background-color: #4B42C6 !important;
+}
+
